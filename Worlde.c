@@ -5,7 +5,7 @@
 //libraries needed by the program
 
 #define MAX_TURNS 5
-#define WORDS_PRESENT 8
+#define WORDS_PRESENT 40
 //the constant max turns shoule be the word length 
 
 
@@ -28,7 +28,7 @@ void display (int pos[], char *guess)
     printf("\n");
 }
 
-//checking whether given character is present in the string req
+//checking whether given character is present in the string required
 
 int charCheck (char ch, const char *req, int checked[])
 {
@@ -117,7 +117,7 @@ int main ()
     //Brief info for playing the game
     
 
-    char *words[WORDS_PRESENT] = {"apple", "adieu", "haste", "hello", "house", "right", "under", "young"};
+    char *words[WORDS_PRESENT] = {"acute", "agree", "apple", "adieu", "basic", "built", "clean", "debut", "drama", "enjoy", "forum", "guard", "haste", "hello", "house", "index", "juice", "known", "learn", "logic", "media", "music", "noise", "ocean", "peace", "photo", "queen", "right", "river", "sheet", "short", "silver", "thick", "tower", "under", "usual", "video", "voice", "wrong", "young"};
     //set of words which would be assigned randomly
     
     int score = 0;
